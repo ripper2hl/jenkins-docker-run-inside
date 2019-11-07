@@ -6,7 +6,7 @@ This image permits run docker commands inside of jenkins container.
 
 * `docker pull jesusperales/jenkins-docker-run-inside`
 
-* `docker run --name jenkins -d -p 8080 -p 50000 -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):$(which docker) jesusperales/jenkins-docker-run-inside`
+* `docker run --name jenkins -d -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):$(which docker) jesusperales/jenkins-docker-run-inside`
 
 * `docker exec -it jenkins /bin/bash`
 
