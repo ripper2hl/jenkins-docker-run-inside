@@ -1,5 +1,8 @@
 # jenkins-docker-run-inside
 
+[![](https://img.shields.io/docker/stars/jesusperales/jenkins-docker-run-inside.svg)](https://hub.docker.com/r/jesusperales/jenkins-docker-run-inside/ 'Docker hub')
+[![](https://img.shields.io/docker/pulls/jesusperales/jenkins-docker-run-inside.svg)](https://hub.docker.com/r/jesusperales/jenkins-docker-run-inside/ 'Docker hub')
+
 This image permits run docker commands inside of jenkins container.
 
 ## Instructions
